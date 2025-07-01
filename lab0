@@ -1,0 +1,10 @@
+def weight_on_planets() -> None:
+    user = input("What do you weigh on earth? \n")
+    weight_mars = float(user) * 0.38
+    weight_jupiter = float(user) * 2.34
+    print("On Mars you would weigh " + str(weight_mars) + " pounds.\n" + "On Jupiter you would weigh "
+          + str(weight_jupiter) + " pounds.")
+
+
+if __name__ == '__main__':
+    weight_on_planets()
